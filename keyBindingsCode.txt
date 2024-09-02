@@ -1,0 +1,45 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+shift+l",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "console.log(${TM_SELECTED_TEXT}$1)$2;"
+    }
+  },
+  {
+    "key": "ctrl+shift+f",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "for(; ;){}",
+    }
+  },
+  {
+    "key": "ctrl+shift+w",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "while(){}",
+    }
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "if(){}"
+    }
+  },
+
+
+{
+  "key": "ctrl+shift+d",
+  "command": "editor.action.insertSnippet",
+  "when": "editorTextFocus",
+  "args": {
+    "snippet": "document.write(${TM_SELECTED_TEXT}$1)$2;"
+  }
+}
+]
